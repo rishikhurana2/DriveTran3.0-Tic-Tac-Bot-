@@ -1,7 +1,7 @@
 #ifndef Arm_H
 #define Arm_H
 
-#include <WPILib.h>
+#include"WPILib.h"
 #include <Commands/Subsystem.h>
 #include "ctre/Phoenix.h"
 #include "../RobotMap.h"
@@ -9,7 +9,6 @@
 #include "../Commands/ArmDrive.h"
 
 class Arm : public Subsystem {
-private:
 	// It's desirable that everything possible under private except
 	// for methods that implement subsystem capabilities
 

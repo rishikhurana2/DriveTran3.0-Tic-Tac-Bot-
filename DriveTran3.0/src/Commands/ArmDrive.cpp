@@ -1,3 +1,4 @@
+#include "ArmDrive.h"
 
 ArmDrive::ArmDrive() {
 	Requires(arm);
@@ -30,4 +31,4 @@ void ArmDrive::End() {
 // subsystems is scheduled to run
 void ArmDrive::Interrupted() {
 
-}0
+}

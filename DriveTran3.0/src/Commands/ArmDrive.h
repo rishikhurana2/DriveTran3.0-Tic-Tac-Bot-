@@ -2,7 +2,9 @@
 #define ArmDrive_H
 
 #include "../CommandBase.h"
+#include "../CommandBase.cpp"
 #include <WPILib.h>
+#include "../RobotMap.h"
 
 class ArmDrive : public CommandBase {
 public:
